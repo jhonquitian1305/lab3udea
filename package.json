@@ -4,13 +4,14 @@
   "description": "Mi calculadora UdeA",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "mocha"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/jhonquitian1305/lab3udea.git"
   },
-  "author": "",
+  
+  "author": "Jhon Quitian",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/jhonquitian1305/lab3udea/issues"
@@ -18,5 +19,9 @@
   "homepage": "https://github.com/jhonquitian1305/lab3udea#readme",
   "dependencies": {
     "readline-sync": "^1.4.10"
+  },
+  "devDependencies": {
+    "chai": "^4.2.0",
+    "mocha": "^8.2.0"
   }
 }
